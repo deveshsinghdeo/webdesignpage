@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           body
+               {
+                 background-color:yellow;
+                 font-family:calibri;
+               }
+            form
+            {
+                width:30%;
+                padding:40%;
+            } 
+            .inpfields,textarea
+            {
+                width:80%;
+                padding:15px;
+                margin:5px 0 22px 0;
+                background-color:#f1f1f1;
+            }  
+            #registerbtn
+            {
+                width:90%;
+                margin:8px 0 8px 0;
+                background-color:green;
+                padding:16px 20px;
+                color:#f1f1f1;
+                cursor:pointer;
+                opacity:0.9;
+            }
+
+        </style>
+   </head>
+    <body>
+        <form>
+            <h1><center>Registration form</center></h1>
+            Name:
+            <br>
+            <input type="text" class="inpfields"><br>
+            Password:
+            <br>
+            <input type="password" class="inpfields"><br>
+            Mobile Number:
+            <br>
+            <input type="number" class="inpfields"><br><br>
+            Gender: Male<input type="radio" name="status">
+                    Female<input type="radio" name="status"><br>
+            Address:
+            <br>
+            <textarea row="5" cols="30">Enter the address</textarea><br> 
+            State: New Delhi<input type="checkbox" name="chk">
+                   Maharastra<input type="checkbox" name="chk"> 
+                   Tamilnadu<input type="checkbox"name="chk"><br><br>
+            Course:<select>
+                         <option>C programming</option>
+                         <option>C++</option>
+                         <option>Java</option>
+                         <option>PHP</option>
+                         <option>HTML</option>
+                  </select> <br><br>
+            <input type="submit" value="Register" id="registerbtn">   
+                
+
+        </form>
+    </body>
+
+</html>
